@@ -23,7 +23,10 @@ credit_rating_mock/
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone git@github.com:yashsarjekar/rmbs-credit-evaluator.git
+   git clone git@github.com:yashsarjekar/rmbs-credit-evaluator.git .
+   ```
+
+   ```sh
    cd credit_rating_mock
    ```
 2. Create a virtual environment (optional but recommended):
