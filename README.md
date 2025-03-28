@@ -1,1 +1,0 @@
-# rmbs-credit-evaluator

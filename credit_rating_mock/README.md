@@ -23,7 +23,7 @@ credit_rating_mock/
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/credit_rating_mock.git
+   git clone git@github.com:yashsarjekar/rmbs-credit-evaluator.git
    cd credit_rating_mock
    ```
 2. Create a virtual environment (optional but recommended):
@@ -37,9 +37,9 @@ credit_rating_mock/
    ```
 
 ## Usage
-Run the **credit rating calculator** using a JSON input file:
+Run the **credit rating calculator** :
 ```sh
-python credit_rating.py input.json
+python credit_rating.py
 ```
 Example JSON format:
 ```json
@@ -63,10 +63,7 @@ To run unit tests:
 ```sh
 python -m unittest test_credit_rating.py
 ```
-Or, if using `pytest` (optional):
-```sh
-pytest test_credit_rating.py
-```
+
 
 ## Credit Rating Algorithm
 ### **1. Loan-to-Value (LTV) Ratio**
@@ -109,3 +106,6 @@ pytest test_credit_rating.py
 - Integration with a database
 - Web API for real-time rating retrieval
 - Implement logging and exception handling.
+
+## Author
+- Yash Sarjekar
